@@ -1,0 +1,6 @@
+{
+  "name": "NaijaSkits Studio",
+  "description": "Mobile PWA Skit Creator powered by Gemini AI with Stick Man and Real World animations, synchronized dialogue, and iconic Nigerian comedy sound effects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

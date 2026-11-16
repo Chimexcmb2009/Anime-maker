@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* Touch & Mobile PWA Enhancements */
+@layer base {
+  html, body {
+    overscroll-behavior-y: none;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+}
+
+/* Safe area padding for notched iOS and Android screens */
+.safe-pb {
+  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+}
+
+/* Hide scrollbars for clean horizontal slider bars */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
